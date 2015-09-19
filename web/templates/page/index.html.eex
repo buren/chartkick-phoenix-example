@@ -3,10 +3,10 @@
   <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
 
   <h3>Example chart</h3>
-  <%= example_chart(:scatter, [[175, 60], [190, 80], [180, 75]]) %>
-  <%= example_chart(:column, [[175, 60], [190, 80], [180, 75]]) %>
-  <%= example_chart(:bar, [[175, 60], [190, 80], [180, 75]]) %>
-  <%= example_chart(:pie, [[175, 60], [190, 80], [180, 75]]) %>
-  <%= example_chart(:line, [[175, 60], [190, 80], [180, 75]]) %>
-  <%= example_chart(:area, [[175, 60], [190, 80], [180, 75]]) %>
+  <%= chart(:scatter, [[175, 60], [190, 80], [180, 75]]) %>
+  <%= chart(:column, [[175, 60], [190, 80], [180, 75]]) %>
+  <%= chart(:bar, [[175, 60], [190, 80], [180, 75]]) %>
+  <%= chart(:pie, [[175, 60], [190, 80], [180, 75]]) %>
+  <%= chart(:line, [[175, 60], [190, 80], [180, 75]]) %>
+  <%= chart(:area, [[175, 60], [190, 80], [180, 75]]) %>
 </div>

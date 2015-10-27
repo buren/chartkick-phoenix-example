@@ -1,19 +1,17 @@
-# HelloPhoenix
+# Chartkick Phoenix example
 
-To start your Phoenix app:
+Example Phoenix app using [chartkick-ex](https://github.com/buren/chartkick-ex).
 
-  1. Install dependencies with `mix deps.get`
-  2. Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  3. Start Phoenix endpoint with `mix phoenix.server`
+All examples are located in `web/templates/page/index.html.eex`.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+To run the app locally clone the repo and:
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+  1. Install `mix deps.get`
+  2. Start `mix phoenix.server`
+  3. Open [`localhost:4000`](http://localhost:4000)
 
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: http://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+Project dependencies:
+```elixir
+[{:poison, "~> 1.5"},
+{:chartkick, "~>0.0.2"}]
+```

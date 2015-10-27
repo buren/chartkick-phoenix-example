@@ -35,6 +35,7 @@ defmodule HelloPhoenix.Mixfile do
      {:phoenix_html, "~> 2.1"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"},
-     {:poison, "~> 1.5"}]
+     {:poison, "~> 1.5"},
+     {:chartkick, "~>0.0.2"}]
   end
 end
